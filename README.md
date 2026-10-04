@@ -1,16 +1,27 @@
-## Hi there 👋
+# Alin Radulescu
 
-<!--
-**AlinTibi/AlinTibi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Practical tools · Automation · Small web projects**
 
-Here are some ideas to get you started:
+I build practical projects with Python and JavaScript, with a focus on simplifying everyday tasks. Based in Romania.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I focus on
+
+- Scripts that automate repetitive work
+- File utilities and data conversion
+- Small web applications and focused bug fixes
+
+## My toolkit
+
+Python · JavaScript · HTML · CSS · Django · Git & GitHub
+
+## How I approach projects
+
+Clear requirements, a focused scope, and a working result with simple setup instructions. I use AI tools to support development and review and test the output before delivery.
+
+## Collaboration
+
+Interested in small, clearly scoped freelance tasks and open-source contributions.
+
+**Languages:** Romanian and English.
+
+[Browse my repositories](https://github.com/AlinTibi?tab=repositories)
