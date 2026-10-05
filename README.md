@@ -1,27 +1,28 @@
-# Alin Radulescu
+# ALMARFELD
 
-**Practical tools · Automation · Small web projects**
+Independent software development by **Alin Radulescu** (AlinTibi), based in Romania.
+Focused Windows utilities, local workflows and open-source projects.
 
-I build practical projects with Python and JavaScript, with a focus on simplifying everyday tasks. Based in Romania.
+## Software
 
-## What I focus on
+| Product | Purpose | Explore |
+| --- | --- | --- |
+| FolderWatch | Snapshot folders and compare file changes using SHA-256 hashes. | [Product page](https://almarfeld.com/software/folderwatch/) · [Source](https://github.com/AlinTibi/FolderWatch) |
+| API Model Forge | Generate C#, TypeScript, Kotlin, Python and Go models from JSON. | [Product page](https://almarfeld.com/software/api-model-forge/) · [Source](https://github.com/AlinTibi/APIModelForge) |
+| MetaClean | Inspect file metadata and remove selected metadata from supported formats. | [Product page](https://almarfeld.com/software/metaclean/) · [Source](https://github.com/AlinTibi/MetaClean) |
+| Subtitle Doctor | Inspect, repair, edit and synchronize subtitle files locally. | [Product page](https://almarfeld.com/software/subtitle-doctor/) · [Source](https://github.com/AlinTibi/SubtitleDoctor) |
 
-- Scripts that automate repetitive work
-- File utilities and data conversion
-- Small web applications and focused bug fixes
+These four projects have MIT-licensed source code. Bundled dependencies retain
+their own licenses; see each repository for notices, requirements and limitations.
+MetaClean does not guarantee secure PDF sanitization or anonymization.
 
-## My toolkit
+[Browse all software](https://almarfeld.com/software/)
 
-Python · JavaScript · HTML · CSS · Django · Git & GitHub
+## Contact
 
-## How I approach projects
+- Website: [almarfeld.com](https://almarfeld.com)
+- General enquiries: [contact@almarfeld.com](mailto:contact@almarfeld.com)
+- Software questions: [support@almarfeld.com](mailto:support@almarfeld.com)
+- Private security reports: [security@almarfeld.com](mailto:security@almarfeld.com)
 
-Clear requirements, a focused scope, and a working result with simple setup instructions. I use AI tools to support development and review and test the output before delivery.
-
-## Collaboration
-
-Interested in small, clearly scoped freelance tasks and open-source contributions.
-
-**Languages:** Romanian and English.
-
-[Browse my repositories](https://github.com/AlinTibi?tab=repositories)
+For reproducible bugs and feature requests, use the relevant project's issue tracker.
