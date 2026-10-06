@@ -11,8 +11,9 @@ Focused Windows utilities, local workflows and open-source projects.
 | API Model Forge | Generate C#, TypeScript, Kotlin, Python and Go models from JSON. | [Product page](https://almarfeld.com/software/api-model-forge/) · [Source](https://github.com/AlinTibi/APIModelForge) |
 | MetaClean | Inspect file metadata and remove selected metadata from supported formats. | [Product page](https://almarfeld.com/software/metaclean/) · [Source](https://github.com/AlinTibi/MetaClean) |
 | Subtitle Doctor | Inspect, repair, edit and synchronize subtitle files locally. | [Product page](https://almarfeld.com/software/subtitle-doctor/) · [Source](https://github.com/AlinTibi/SubtitleDoctor) |
+| Config Doctor | Inspect, compare and validate .env, JSON, YAML, TOML and INI configuration files locally. | [Product page](https://almarfeld.com/software/config-doctor/) · [Source](https://github.com/AlinTibi/ConfigDoctor) |
 
-These four projects have MIT-licensed source code. Bundled dependencies retain
+These five projects have MIT-licensed source code. Bundled dependencies retain
 their own licenses; see each repository for notices, requirements and limitations.
 MetaClean does not guarantee secure PDF sanitization or anonymization.
 
