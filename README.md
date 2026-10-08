@@ -1,4 +1,4 @@
-![ALMARFELD â€” practical Windows utilities](assets/banner.svg)
+![ALMARFELD — practical Windows utilities](assets/banner.svg)
 
 ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, focused on small, useful Windows utilities. The applications are free and open source, with local processing and straightforward portable distribution.
 
@@ -6,12 +6,12 @@ ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, f
 
 | Application | Workflow | Links |
 | --- | --- | --- |
-| **FolderWatch** | Save folder snapshots, compare changes and export filtered reports. | [Product](https://almarfeld.com/software/folderwatch/) Â· [Source](https://github.com/AlinTibi/FolderWatch) |
-| **API Model Forge** | Turn JSON into C#, TypeScript, Kotlin, Python and Go models. | [Product](https://almarfeld.com/software/api-model-forge/) Â· [Source](https://github.com/AlinTibi/APIModelForge) |
-| **MetaClean** | Inspect and remove supported file metadata using ExifTool. | [Product](https://almarfeld.com/software/metaclean/) Â· [Source](https://github.com/AlinTibi/MetaClean) |
-| **Subtitle Doctor** | Inspect, repair, edit and synchronize subtitle files. | [Product](https://almarfeld.com/software/subtitle-doctor/) Â· [Source](https://github.com/AlinTibi/SubtitleDoctor) |
-| **Config Doctor** | Inspect configurations, compare a baseline and diagnose .env references. | [Product](https://almarfeld.com/software/config-doctor/) Â· [Source](https://github.com/AlinTibi/ConfigDoctor) |
-| **P7S Universal Viewer** | Open signed containers, inspect each signer and extract original content. Version 2.0.0 is released. | [Product](https://almarfeld.com/software/p7s-universal-viewer/) Â· [Source](https://github.com/AlinTibi/p7s-universal-viewer) |
+| **FolderWatch** | Save folder snapshots, compare changes and export filtered reports. | [Product](https://almarfeld.com/software/folderwatch/) · [Source](https://github.com/AlinTibi/FolderWatch) |
+| **API Model Forge** | Turn JSON into C#, TypeScript, Kotlin, Python and Go models. | [Product](https://almarfeld.com/software/api-model-forge/) · [Source](https://github.com/AlinTibi/APIModelForge) |
+| **MetaClean** | Inspect and remove supported file metadata using ExifTool. | [Product](https://almarfeld.com/software/metaclean/) · [Source](https://github.com/AlinTibi/MetaClean) |
+| **Subtitle Doctor** | Inspect, repair, edit and synchronize subtitle files. | [Product](https://almarfeld.com/software/subtitle-doctor/) · [Source](https://github.com/AlinTibi/SubtitleDoctor) |
+| **Config Doctor** | Inspect configurations, compare a baseline and diagnose .env references. | [Product](https://almarfeld.com/software/config-doctor/) · [Source](https://github.com/AlinTibi/ConfigDoctor) |
+| **P7S Universal Viewer** | Open signed containers, inspect each signer and extract original content. Version 2.0.0 is released. | [Product](https://almarfeld.com/software/p7s-universal-viewer/) · [Source](https://github.com/AlinTibi/p7s-universal-viewer) |
 
 ## Distribution and safety
 
@@ -26,7 +26,7 @@ ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, f
 
 ## Contact
 
-[almarfeld.com](https://almarfeld.com) Â· [contact@almarfeld.com](mailto:contact@almarfeld.com)
+[almarfeld.com](https://almarfeld.com) · [contact@almarfeld.com](mailto:contact@almarfeld.com)
 
 Software support: [support@almarfeld.com](mailto:support@almarfeld.com). Report reproducible bugs and feature requests in the application's issue tracker. Never attach private files or credentials.
 
