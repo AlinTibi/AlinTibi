@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title description">
+  <title id="title">ALMARFELD</title>
+  <desc id="description">Independent software project. Practical Windows utilities.</desc>
+  <rect width="1200" height="260" rx="20" fill="#0b1018"/>
+  <path d="M0 259h1200" stroke="#263444" stroke-width="2"/>
+  <g transform="translate(54 62) scale(3)" fill="#80e0c1">
+    <path d="M3 34 16 6h7L10 34Z"/>
+    <path d="m25 6 13 28h-8l-4-9H13l3-6h7l-3-7Z"/>
+  </g>
+  <text x="214" y="119" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="3" fill="#f0f5fa">ALMARFELD</text>
+  <text x="216" y="162" font-family="Segoe UI,Arial,sans-serif" font-size="23" fill="#b7c6d7">Practical Windows utilities. Local workflows. Open source.</text>
+  <text x="216" y="200" font-family="Segoe UI,Arial,sans-serif" font-size="19" fill="#80e0c1">almarfeld.com</text>
+</svg>

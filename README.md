@@ -1,29 +1,31 @@
-# ALMARFELD
+![ALMARFELD — practical Windows utilities](assets/banner.svg)
 
-Independent software development by **Alin Radulescu** (AlinTibi), based in Romania.
-Focused Windows utilities, local workflows and open-source projects.
+ALMARFELD is an independent software project focused on small, useful Windows utilities. The applications are free and open source, with local processing and straightforward portable distribution.
 
 ## Software
 
-| Product | Purpose | Explore |
+| Application | Workflow | Links |
 | --- | --- | --- |
-| FolderWatch | Snapshot folders and compare file changes using SHA-256 hashes. | [Product page](https://almarfeld.com/software/folderwatch/) · [Source](https://github.com/AlinTibi/FolderWatch) |
-| API Model Forge | Generate C#, TypeScript, Kotlin, Python and Go models from JSON. | [Product page](https://almarfeld.com/software/api-model-forge/) · [Source](https://github.com/AlinTibi/APIModelForge) |
-| MetaClean | Inspect file metadata and remove selected metadata from supported formats. | [Product page](https://almarfeld.com/software/metaclean/) · [Source](https://github.com/AlinTibi/MetaClean) |
-| Subtitle Doctor | Inspect, repair, edit and synchronize subtitle files locally. | [Product page](https://almarfeld.com/software/subtitle-doctor/) · [Source](https://github.com/AlinTibi/SubtitleDoctor) |
-| Config Doctor | Inspect, compare and validate .env, JSON, YAML, TOML and INI configuration files locally. | [Product page](https://almarfeld.com/software/config-doctor/) · [Source](https://github.com/AlinTibi/ConfigDoctor) |
+| **FolderWatch** | Save folder snapshots, compare changes and export filtered reports. | [Product](https://almarfeld.com/software/folderwatch/) · [Source](https://github.com/AlinTibi/FolderWatch) |
+| **API Model Forge** | Turn JSON into C#, TypeScript, Kotlin, Python and Go models. | [Product](https://almarfeld.com/software/api-model-forge/) · [Source](https://github.com/AlinTibi/APIModelForge) |
+| **MetaClean** | Inspect and remove supported file metadata using ExifTool. | [Product](https://almarfeld.com/software/metaclean/) · [Source](https://github.com/AlinTibi/MetaClean) |
+| **Subtitle Doctor** | Inspect, repair, edit and synchronize subtitle files. | [Product](https://almarfeld.com/software/subtitle-doctor/) · [Source](https://github.com/AlinTibi/SubtitleDoctor) |
+| **Config Doctor** | Inspect configurations, compare a baseline and diagnose .env references. | [Product](https://almarfeld.com/software/config-doctor/) · [Source](https://github.com/AlinTibi/ConfigDoctor) |
 
-These five projects have MIT-licensed source code. Bundled dependencies retain
-their own licenses; see each repository for notices, requirements and limitations.
-MetaClean does not guarantee secure PDF sanitization or anonymization.
+## Distribution and safety
 
-[Browse all software](https://almarfeld.com/software/)
+- Windows x64 portable releases, with CI builds/tests and SHA-256 checksum files.
+- Release tags are signed. Windows executables are **not Authenticode signed**; a signed tag does not replace checking the downloaded ZIP's checksum.
+- Applications process files locally without accounts, analytics or uploads. Wails applications require Microsoft Edge WebView2 Runtime separately; MetaClean includes ExifTool in its portable package.
+- Application source is MIT licensed. Dependencies retain their own licenses.
+- MetaClean does not guarantee secure PDF sanitization or anonymization: PDF metadata writes may be incremental and reversible.
+
+[Browse all software](https://almarfeld.com/software/) for screenshots, current releases, requirements and product-specific limitations.
 
 ## Contact
 
-- Website: [almarfeld.com](https://almarfeld.com)
-- General enquiries: [contact@almarfeld.com](mailto:contact@almarfeld.com)
-- Software questions: [support@almarfeld.com](mailto:support@almarfeld.com)
-- Private security reports: [security@almarfeld.com](mailto:security@almarfeld.com)
+[almarfeld.com](https://almarfeld.com) · [contact@almarfeld.com](mailto:contact@almarfeld.com)
 
-For reproducible bugs and feature requests, use the relevant project's issue tracker.
+Software support: [support@almarfeld.com](mailto:support@almarfeld.com). Report reproducible bugs and feature requests in the application's issue tracker. Never attach private files or credentials.
+
+Security reports: [security@almarfeld.com](mailto:security@almarfeld.com).
