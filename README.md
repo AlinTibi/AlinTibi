@@ -1,6 +1,6 @@
 ![ALMARFELD — practical Windows utilities](assets/banner.svg)
 
-ALMARFELD is an independent software project focused on small, useful Windows utilities. The applications are free and open source, with local processing and straightforward portable distribution.
+ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, focused on small, useful Windows utilities. The applications are free and open source, with local processing and straightforward portable distribution.
 
 ## Software
 
