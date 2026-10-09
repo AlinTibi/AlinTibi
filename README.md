@@ -11,11 +11,12 @@ ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, f
 | **MetaClean** | Inspect and remove supported file metadata using ExifTool. | [Product](https://almarfeld.com/software/metaclean/) · [Source](https://github.com/AlinTibi/MetaClean) |
 | **Subtitle Doctor** | Inspect, repair, edit and synchronize subtitle files. | [Product](https://almarfeld.com/software/subtitle-doctor/) · [Source](https://github.com/AlinTibi/SubtitleDoctor) |
 | **Config Doctor** | Inspect configurations, compare a baseline and diagnose .env references. | [Product](https://almarfeld.com/software/config-doctor/) · [Source](https://github.com/AlinTibi/ConfigDoctor) |
-| **P7S Universal Viewer** | Open signed containers, inspect each signer and extract original content. Version 2.0.0 is released. | [Product](https://almarfeld.com/software/p7s-universal-viewer/) · [Source](https://github.com/AlinTibi/p7s-universal-viewer) |
+| **P7S Universal Viewer** | Open signed containers, inspect each signer and extract original content. | [Product](https://almarfeld.com/software/p7s-universal-viewer/) · [Source](https://github.com/AlinTibi/p7s-universal-viewer) |
+| **CSV Doctor** | Diagnose CSV/TSV files, review repairs and export a separate copy. | [Product](https://almarfeld.com/software/csv-doctor/) · [Source](https://github.com/AlinTibi/CSVDoctor) |
 
 ## Distribution and safety
 
-- Windows x64 portable releases, with CI builds/tests and SHA-256 checksum files.
+- Windows x64 portable releases, with CI builds/tests and SHA-256 checksum files. P7S Universal Viewer also offers a per-user installer.
 - Current ALMARFELD release tags are signed; the preserved legacy P7S v1.0.0 tag predates this policy. Windows executables are **not Authenticode signed**; a signed tag does not replace checking the downloaded ZIP's checksum.
 - Applications process files locally without accounts, analytics or uploads. Wails applications require Microsoft Edge WebView2 Runtime separately; MetaClean includes ExifTool in its portable package.
 - P7S v2.0.0 uses .NET 10 / WPF and requires WebView2 only for PDF preview; certificate trust and integrity are separate, and revocation is not checked.
