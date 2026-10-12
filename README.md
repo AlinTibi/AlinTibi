@@ -4,6 +4,8 @@ ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, f
 
 ## Software
 
+Eight released Windows applications:
+
 | Application | Workflow | Links |
 | --- | --- | --- |
 | **FolderWatch** | Save folder snapshots, compare changes and export filtered reports. | [Product](https://almarfeld.com/software/folderwatch/) · [Source](https://github.com/AlinTibi/FolderWatch) |
@@ -13,6 +15,7 @@ ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, f
 | **Config Doctor** | Inspect configurations, compare a baseline and diagnose .env references. | [Product](https://almarfeld.com/software/config-doctor/) · [Source](https://github.com/AlinTibi/ConfigDoctor) |
 | **P7S Universal Viewer** | Open signed containers, inspect each signer and extract original content. | [Product](https://almarfeld.com/software/p7s-universal-viewer/) · [Source](https://github.com/AlinTibi/p7s-universal-viewer) |
 | **CSV Doctor** | Diagnose CSV/TSV files, review repairs and export a separate copy. | [Product](https://almarfeld.com/software/csv-doctor/) · [Source](https://github.com/AlinTibi/CSVDoctor) |
+| **PDF Toolbox** | Merge, split, organize, convert, protect and compress PDF files locally on Windows. | [Product](https://almarfeld.com/software/pdf-toolbox/) · [Source](https://github.com/AlinTibi/PDFToolboxWindows) · [v1.0.0 release](https://github.com/AlinTibi/PDFToolboxWindows/releases/tag/v1.0.0) |
 
 ## Distribution and safety
 
@@ -20,6 +23,7 @@ ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, f
 - Current ALMARFELD release tags are signed; the preserved legacy P7S v1.0.0 tag predates this policy. Windows executables are **not Authenticode signed**; a signed tag does not replace checking the downloaded ZIP's checksum.
 - Applications process files locally without accounts, analytics or uploads. Wails applications require Microsoft Edge WebView2 Runtime separately; MetaClean includes ExifTool in its portable package.
 - P7S v2.0.0 uses .NET 10 / WPF and requires WebView2 only for PDF preview; certificate trust and integrity are separate, and revocation is not checked.
+- PDF Toolbox v1.0.0 supports Windows 10 / 11 x64 and ships as a portable self-contained ZIP, with no separate .NET runtime or WebView2 required. Processing is local/offline, without uploads, telemetry or accounts.
 - Application source is MIT licensed. Dependencies retain their own licenses.
 - MetaClean does not guarantee secure PDF sanitization or anonymization: PDF metadata writes may be incremental and reversible.
 
