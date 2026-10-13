@@ -4,7 +4,7 @@ ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, f
 
 ## Software
 
-Eight released Windows applications:
+Nine released Windows applications:
 
 | Application | Workflow | Links |
 | --- | --- | --- |
@@ -16,6 +16,7 @@ Eight released Windows applications:
 | **P7S Universal Viewer** | Open signed containers, inspect each signer and extract original content. | [Product](https://almarfeld.com/software/p7s-universal-viewer/) · [Source](https://github.com/AlinTibi/p7s-universal-viewer) |
 | **CSV Doctor** | Diagnose CSV/TSV files, review repairs and export a separate copy. | [Product](https://almarfeld.com/software/csv-doctor/) · [Source](https://github.com/AlinTibi/CSVDoctor) |
 | **PDF Toolbox** | Merge, split, organize, convert, protect and compress PDF files locally on Windows. | [Product](https://almarfeld.com/software/pdf-toolbox/) · [Source](https://github.com/AlinTibi/PDFToolboxWindows) · [v1.0.0 release](https://github.com/AlinTibi/PDFToolboxWindows/releases/tag/v1.0.0) |
+| **App Cleanup Doctor** | Evidence-based Windows leftover scanning with manual review, reversible quarantine and Undo. | [Product](https://almarfeld.com/software/app-cleanup-doctor/) · [Source](https://github.com/AlinTibi/AppCleanupDoctor) · [v1.0.0 release](https://github.com/AlinTibi/AppCleanupDoctor/releases/tag/v1.0.0) |
 
 ## Distribution and safety
 
