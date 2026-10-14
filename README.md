@@ -4,7 +4,7 @@ ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, f
 
 ## Software
 
-Nine released Windows applications:
+Ten released Windows applications:
 
 | Application | Workflow | Links |
 | --- | --- | --- |
@@ -17,16 +17,18 @@ Nine released Windows applications:
 | **CSV Doctor** | Diagnose CSV/TSV files, review repairs and export a separate copy. | [Product](https://almarfeld.com/software/csv-doctor/) · [Source](https://github.com/AlinTibi/CSVDoctor) |
 | **PDF Toolbox** | Merge, split, organize, convert, protect and compress PDF files locally on Windows. | [Product](https://almarfeld.com/software/pdf-toolbox/) · [Source](https://github.com/AlinTibi/PDFToolboxWindows) · [v1.0.0 release](https://github.com/AlinTibi/PDFToolboxWindows/releases/tag/v1.0.0) |
 | **App Cleanup Doctor** | Evidence-based Windows leftover scanning with manual review, reversible quarantine and Undo. | [Product](https://almarfeld.com/software/app-cleanup-doctor/) · [Source](https://github.com/AlinTibi/AppCleanupDoctor) · [v1.0.0 release](https://github.com/AlinTibi/AppCleanupDoctor/releases/tag/v1.0.0) |
+| **Certificate Doctor** | Inspect certificates, check provided chains and key matches, and convert copies offline. | [Product](https://almarfeld.com/software/certificate-doctor/) · [Source](https://github.com/AlinTibi/CertificateDoctor) · [Release](https://github.com/AlinTibi/CertificateDoctor/releases/latest) |
 
 ## Distribution and safety
 
 - Windows x64 portable releases, with CI builds/tests and SHA-256 checksum files. P7S Universal Viewer also offers a per-user installer.
-- Current ALMARFELD release tags are signed; the preserved legacy P7S v1.0.0 tag predates this policy. Windows executables are **not Authenticode signed**; a signed tag does not replace checking the downloaded ZIP's checksum.
+- Release tags use SSH signing, with the preserved P7S v1.0.0 and Certificate Doctor v1.0.0 tags as unsigned exceptions. Windows executables are **not Authenticode signed**; a signed tag does not replace checking the downloaded ZIP's checksum.
 - Applications process files locally without accounts, analytics or uploads. Wails applications require Microsoft Edge WebView2 Runtime separately; MetaClean includes ExifTool in its portable package.
 - P7S v2.0.0 uses .NET 10 / WPF and requires WebView2 only for PDF preview; certificate trust and integrity are separate, and revocation is not checked.
 - PDF Toolbox v1.0.0 supports Windows 10 / 11 x64 and ships as a portable self-contained ZIP, with no separate .NET runtime or WebView2 required. Processing is local/offline, without uploads, telemetry or accounts.
 - Application source is MIT licensed. Dependencies retain their own licenses.
 - MetaClean does not guarantee secure PDF sanitization or anonymization: PDF metadata writes may be incremental and reversible.
+- Certificate Doctor inspects files offline; a linked chain is not a trust decision. Revocation, hostname and system trust-store checks are not performed.
 
 [Browse all software](https://almarfeld.com/software/) for screenshots, current releases, requirements and product-specific limitations.
 
