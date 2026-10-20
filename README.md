@@ -4,7 +4,7 @@ ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, f
 
 ## Software
 
-Ten released Windows applications:
+Eleven released Windows applications:
 
 | Application | Workflow | Links |
 | --- | --- | --- |
@@ -19,11 +19,13 @@ Ten released Windows applications:
 | **App Cleanup Doctor** | Evidence-based Windows leftover scanning with manual review, reversible quarantine and Undo. | [Product](https://almarfeld.com/software/app-cleanup-doctor/) · [Source](https://github.com/AlinTibi/AppCleanupDoctor) · [v1.0.0 release](https://github.com/AlinTibi/AppCleanupDoctor/releases/tag/v1.0.0) |
 | **Certificate Doctor** | Inspect certificates, check provided chains and key matches, and convert copies offline. | [Product](https://almarfeld.com/software/certificate-doctor/) · [Source](https://github.com/AlinTibi/CertificateDoctor) · [Release](https://github.com/AlinTibi/CertificateDoctor/releases/latest) |
 
+| **SubFlow** | Translate existing video subtitles with local Ollama, review batches and export new MKV/subtitle copies; optional cloud engines require consent. | [Product](https://almarfeld.com/software/subflow/) · [Source](https://github.com/AlinTibi/SubFlow) · [Release](https://github.com/AlinTibi/SubFlow/releases/tag/v1.2.0) |
+
 ## Distribution and safety
 
-- Windows x64 portable releases, with CI builds/tests and SHA-256 checksum files. P7S Universal Viewer also offers a per-user installer.
+- Windows x64 portable releases, with CI builds/tests and SHA-256 checksum files. P7S Universal Viewer and SubFlow also offer per-user installers.
 - Release tags use SSH signing, with the preserved P7S v1.0.0 and Certificate Doctor v1.0.0 tags as unsigned exceptions. Windows executables are **not Authenticode signed**; a signed tag does not replace checking the downloaded ZIP's checksum.
-- Applications process files locally without accounts, analytics or uploads. Wails applications require Microsoft Edge WebView2 Runtime separately; MetaClean includes ExifTool in its portable package.
+- Applications support local workflows without ALMARFELD accounts or telemetry. SubFlow also supports optional cloud translation with explicit consent; provider accounts and charges may apply. Wails applications require Microsoft Edge WebView2 Runtime separately; MetaClean includes ExifTool in its portable package.
 - P7S v2.0.0 uses .NET 10 / WPF and requires WebView2 only for PDF preview; certificate trust and integrity are separate, and revocation is not checked.
 - PDF Toolbox v1.0.0 supports Windows 10 / 11 x64 and ships as a portable self-contained ZIP, with no separate .NET runtime or WebView2 required. Processing is local/offline, without uploads, telemetry or accounts.
 - Application source is MIT licensed. Dependencies retain their own licenses.
