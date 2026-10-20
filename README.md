@@ -18,7 +18,6 @@ Eleven released Windows applications:
 | **PDF Toolbox** | Merge, split, organize, convert, protect and compress PDF files locally on Windows. | [Product](https://almarfeld.com/software/pdf-toolbox/) · [Source](https://github.com/AlinTibi/PDFToolboxWindows) · [v1.0.0 release](https://github.com/AlinTibi/PDFToolboxWindows/releases/tag/v1.0.0) |
 | **App Cleanup Doctor** | Evidence-based Windows leftover scanning with manual review, reversible quarantine and Undo. | [Product](https://almarfeld.com/software/app-cleanup-doctor/) · [Source](https://github.com/AlinTibi/AppCleanupDoctor) · [v1.0.0 release](https://github.com/AlinTibi/AppCleanupDoctor/releases/tag/v1.0.0) |
 | **Certificate Doctor** | Inspect certificates, check provided chains and key matches, and convert copies offline. | [Product](https://almarfeld.com/software/certificate-doctor/) · [Source](https://github.com/AlinTibi/CertificateDoctor) · [Release](https://github.com/AlinTibi/CertificateDoctor/releases/latest) |
-
 | **SubFlow** | Translate existing video subtitles with local Ollama, review batches and export new MKV/subtitle copies; optional cloud engines require consent. | [Product](https://almarfeld.com/software/subflow/) · [Source](https://github.com/AlinTibi/SubFlow) · [Release](https://github.com/AlinTibi/SubFlow/releases/tag/v1.2.0) |
 
 ## Distribution and safety
