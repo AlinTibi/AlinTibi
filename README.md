@@ -1,6 +1,6 @@
 ![ALMARFELD — practical Windows utilities](assets/banner.svg)
 
-ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**, focused on small, useful Windows utilities. The applications are free and open source, with local processing and straightforward portable distribution.
+ALMARFELD is an independent software project by **Alin Radulescu (AlinTibi)**. Its Windows utilities are free and open source, with local processing and straightforward portable distribution. PDF Toolbox also has an Android edition on Google Play.
 
 ## Software
 
@@ -20,7 +20,13 @@ Eleven released Windows applications:
 | **Certificate Doctor** | Inspect certificates, check provided chains and key matches, and convert copies offline. | [Product](https://almarfeld.com/software/certificate-doctor/) · [Source](https://github.com/AlinTibi/CertificateDoctor) · [Release](https://github.com/AlinTibi/CertificateDoctor/releases/latest) |
 | **SubFlow** | Translate existing video subtitles with local Ollama, review batches and export new MKV/subtitle copies; optional cloud engines require consent. | [Product](https://almarfeld.com/software/subflow/) · [Source](https://github.com/AlinTibi/SubFlow) · [Release](https://github.com/AlinTibi/SubFlow/releases/tag/v1.2.3) |
 
-## Distribution and safety
+## Android
+
+**PDF Toolbox for Android** creates PDFs from images, merges documents, extracts pages and organizes PDFs on your device. It contains ads and offers an optional one-time purchase to remove them.
+
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.almarfeld.pdftoolbox) · [Product page](https://almarfeld.com/pdf-toolbox/)
+
+## Windows distribution and safety
 
 - Windows x64 portable releases, with CI builds/tests and SHA-256 checksum files. P7S Universal Viewer and SubFlow also offer per-user installers.
 - Release tags use SSH signing, with the preserved P7S v1.0.0 and Certificate Doctor v1.0.0 tags as unsigned exceptions. Windows executables are **not Authenticode signed**; a signed tag does not replace checking the downloaded ZIP's checksum.
