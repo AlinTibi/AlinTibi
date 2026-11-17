@@ -22,7 +22,7 @@ Eleven released Windows applications:
 
 ## Android
 
-**PDF Toolbox for Android** creates PDFs from images, merges documents, extracts pages and organizes PDFs on your device. It contains ads and offers an optional one-time purchase to remove them.
+**PDF Toolbox: Edit, Scan, Merge** for Android edits supported PDFs, scans documents with offline OCR, merges and organizes pages, and exports text-based PDF tables to Excel or CSV. It contains ads and offers an optional one-time purchase to remove them.
 
 [Get it on Google Play](https://play.google.com/store/apps/details?id=com.almarfeld.pdftoolbox) · [Product page](https://almarfeld.com/pdf-toolbox/)
 
